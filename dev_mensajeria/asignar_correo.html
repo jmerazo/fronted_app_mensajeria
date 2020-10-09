@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ingreso</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=!">
+	<link rel="stylesheet" type="text/css" href="style_paginas.css">
+	<link rel="stylesheet" type="text/css" href="style_ingreso.css">
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper logo-nav-container">
+			
+			<font size=6 face="Comic Sans MS,Arial,Verdana"><a href="index.html" class="logo"><img src="imagenes/logorage.jpeg" width="50" height="50" >RAGE</a></font>
+
+			<font size=4.5 face="Comic Sans MS,Arial,Verdana"><span class="wrapper menu-icon">Indice</span>
+			<nav class="navigation">
+				<ul>
+					<li><a href="ingreso.html">IngresoCO</a></li>
+					<li><a href="devoluciones.html">Devoluciones</a></li>
+					<li><a href="consulta.html">Consulta</a></li>
+					<li><a href="imagenes.html">Imagenes</a></li>
+					<li><a href="registro.html">Registro</a></li>
+					<li><a href="index.html">Inicio</a></li>
+				</ul>
+			</nav>
+		</font>
+		</div>
+	</header>
+	<section class="main_ingreso">
+		<section class="contimage_ingreso">
+			<section class="asig_correo_sec_1" style=" ">
+				<select style="border-radius: 20px; background: #C4C4C4;text-align: center;width: 350px;padding: 5px; margin-left: 5rem;"  class="select_mensajero" name="Mensajero">
+					<option selected value="0"> Selecciona un Mensajero </option>
+						
+			</select>
+			<input style="border-radius: 20px;border: 1px solid #C4C4C4;padding: 3px; width: 250px;background:#DCE4F3; text-align: center;" class="selec_mensajero" type="text" id="" name="cantidad" value="Cantidad: " readonly>
+
+						<div><br>
+						<label class="label_asig_correo" style="margin-left: 5rem; color: #1F4181;margin-top: 2rem;">Mensajero seleccionado: </label><input style="border-radius: 20px;border: 1px solid #C4C4C4;padding: 3px; width: 250px;background:white; " class="selec_mensajero" type="text" id="" name="" value="" readonly>
+				</div>
+				<form class="form_asig_correo_1" style="background: white; width: 350px;margin-top: 1rem;margin-left: 5rem;height: 350px; border: 1px solid #C4C4C4; ">
+					<section style="width: 95%; height: 85px;background: #DCE4F3;margin-left: 0.5rem;margin-top: 0.5rem;">
+					
+					<label style="color: #1F4181;margin-left: 3.5rem;">Digite el Número de Guía</label>
+					
+					<input style="border-radius: 20px; border: 1px solid #C4C4C4;padding: 10px; width: 250px; margin-left: 2rem;" type="text" name="ingre_codigo"><br>
+					</section><br>
+					
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">
+					Guía:</label>
+					<input style="border-radius: 20px;border: 1px solid #C4C4C4;;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">
+					Nombre:</label>
+					<input style="border-radius: 20px;border: 1px solid #C4C4C4;;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">Dirección:</label> 
+					<input style="border-radius: 20px;border: 1px solid #C4C4C4;;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">
+					Ciudad:</label> 
+					<input style="border-radius: 20px;border: 1px solid #C4C4C4;;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">Planilla:</label>
+					<input style="border-radius: 20px;border: 1px solid #C4C4C4;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+							
+				</form>
+			</section>
+			
+		</section> 
+	</section>
+		<section class="aside_ingreso">
+			<h1>Mensajero</h1>
+			<hr>
+			<div><input onclick="location.href='registrar_mensajeros.html'" type="submit" value="Registrar" class="button_men"></div>
+			<hr>
+			<div><input onclick="location.href='asignar_correo.html'" type="submit" value="Asignar Correo" class="button_men"></div>
+			<hr>
+			<div><input onclick="location.href='reporte_correo.html'" type="submit" value="Reporte Correo" class="button_men"></div>
+			<hr>
+			<div><input onclick="location.href='planillas.html'" type="submit" value="Planillas" class="button_men"></div>
+			<hr>
+			<div><input onclick="location.href='listar_mensajeros.html'" type="submit" value="Listar Mensajeros" class="button_men">
+			</div>
+		</section>
+	</section>
+	<div class="footer_ingreso">
+		
+			Derechos reservados 2020
+			
+	</div>
+
+</body>
+</html>

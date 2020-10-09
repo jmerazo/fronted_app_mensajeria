@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ingreso</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=!">
+	<link rel="stylesheet" type="text/css" href="style_paginas.css">
+	<link rel="stylesheet" type="text/css" href="style_ingreso.css">
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper logo-nav-container">
+			
+			<font size=6 face="Comic Sans MS,Arial,Verdana"><a href="index.html" class="logo"><img src="imagenes/logorage.jpeg" width="50" height="50" >RAGE</a></font>
+
+			<font size=4.5 face="Comic Sans MS,Arial,Verdana"><span class="wrapper menu-icon">Indice</span>
+			<nav class="navigation">
+				<ul>
+					<li><a href="ingreso.html">IngresoCO</a></li>
+					<li><a href="devoluciones.html">Devoluciones</a></li>
+					<li><a href="consulta.html">Consulta</a></li>
+					<li><a href="imagenes.html">Imagenes</a></li>
+					<li><a href="registro.html">Registro</a></li>
+					<li><a href="index.html">Inicio</a></li>
+				</ul>
+			</nav>
+		</font>
+		</div>
+	</header>
+	<font face="Comic Sans MS,Arial,Verdana">
+	<section class="main_ingreso">
+		<section class="contimage_ingreso">
+
+			<label class="label_devo">Ingreso Centro de Operaciones</label>
+			<section class="ingreso_sec_1">
+				<form class="form_ingre_1">
+
+					<label style="color: #1F4181;margin-left: 2rem;">Empresa: Cadena</label> <br>
+					<label style="color: #1F4181;margin-left: 2rem;"> Cod.Emp : 100250</label><br><br><br>
+					<label style="color: #1F4181;margin-left: 3rem;">Digite el Número de Guía</label>
+					<br>
+					<input style="border-radius: 20px; border: none;padding: 10px; width: 250px; margin-left: 2rem;" type="text" name="ingre_codigo"><br><br>
+					<label style="color: #1F4181;margin-left: 5rem;">Información de Guía</label><br><br>
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">
+					Guía:</label>
+					<input style="border-radius: 20px;border: none;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">
+					Nombre:</label>
+					<input style="border-radius: 20px;border: none;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">Dirección:</label> 
+					<input style="border-radius: 20px;border: none;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">
+					Ciudad:</label> 
+					<input style="border-radius: 20px;border: none;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+					<label style="color: #1F4181;margin-left: 2rem;width: 100px;float: left;">Planilla:</label>
+					<input style="border-radius: 20px;border: none;padding: 3px;" class="info" type="text" id="" name="" value="" readonly><br>
+							
+				</form>
+			</section>
+			<input class="cant" type="text" id="" name="" value="" readonly>
+		</section> </font>
+		<section class="aside_ingreso">
+			<h1>Mensajero</h1>
+			<hr>
+			<div><input onclick="location.href='registrar_mensajeros.html'" type="submit" value="Registrar" class="button_men"></div>
+			<hr>
+			<div><input onclick="location.href='asignar_correo.html'" type="submit" value="Asignar Correo" class="button_men"></div>
+			<hr>
+			<div><input onclick="location.href='reporte_correo.html'" type="submit" value="Reporte Correo" class="button_men"></div>
+			<hr>
+			<div><input onclick="location.href='planillas.html'" type="submit" value="Planillas" class="button_men"></div>
+			<hr>
+			<div><input onclick="location.href='listar_mensajeros.html'" type="submit" value="Listar Mensajeros" class="button_men">
+			</div>
+		</section>
+	</section>
+	<div class="footer_ingreso">
+		
+			Derechos reservados 2020
+			
+	</div>
+
+</body>
+</html>

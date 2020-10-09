@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<script type="text/javascript" src="https://kit.fontawesome.com/1475e9a82b.js" crossorigin="anonymous"></script> 
+	<link rel="stylesheet" type="text/css" href="styleregistros.css">
+	<link rel="stylesheet" type="text/css" href="style_paginas.css">
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper logo-nav-container">
+			
+			<font size=6 face="Comic Sans MS,Arial,Verdana"><a href="index.html" class="logo"><img src="imagenes/logorage.jpeg" width="50" height="50" >RAGE</a></font>
+
+			<font size=4.5 face="Comic Sans MS,Arial,Verdana"><span class="wrapper menu-icon">Indice</span>
+			<nav class="navigation">
+				<ul>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="contactenos.html">Contactenos</a></li>
+					<li><a href="sesion.html">Login</a></li>
+				</ul>
+			</nav>
+		</font>
+		</div>
+	</header>
+	<form action="php/registro_usuario.php" method="POST" class="formulario">
+		<h1>Registrar Usuario</h1>
+		<div class="contenedor"></div>
+		<div class="input-contenedor">
+			<i class="fas fa-user"></i>
+			<input type="text" placeholder="Usuario" name="usuario_regis">		
+		</div>
+		<div class="input-contenedor">
+			<i class="fas fa-key"></i>
+			<input type="password" placeholder="Contraseña" name="contra_regis">
+			
+		</div>
+		<div class="input-contenedor">
+			<i class="fas fa-envelope"></i>
+			<input type="email" placeholder="Correo" name="correo_regis">
+			
+		</div>
+		<div class="input-contenedor">
+			<i class="fas fa-mobile-alt"></i>
+			<input type="number" placeholder="Celular" name="cel_regis">
+			
+		</div>
+		<div>
+			<input type="submit" value="Registrar" class="button_form">
+
+		</div>
+	</form>
+	<footer></footer>
+	
+</body>
+
+</html>

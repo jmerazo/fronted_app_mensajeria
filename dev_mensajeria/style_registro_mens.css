@@ -1,0 +1,86 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
+*{
+	box-sizing: border-box;
+}
+.contenedor{
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+
+}
+.formulario{
+	background: #E3E5EA;
+	padding: 5px;
+	border-radius: 20px;
+
+}
+.input-contenedor{
+	margin-bottom: 20px;
+	border:none;
+	border-radius: 20px;
+	height: 35px;
+	margin-left: 2rem;
+
+}
+.icon{
+	min-width: 200px;
+	text-align: center;
+	color: #6B6BE8;
+}
+.button_form{
+	border:none;
+	width: 60%;
+	height: 40px;
+	color: white;
+	font-size: 20px;
+	background:#1F4181;
+	padding: 3px 3px;
+	border-radius: 20px;	
+	cursor: pointer;
+	text-align: center;
+	margin-top: 0rem;
+	margin-left: 4.5rem;
+}
+.select_ciudad{
+	font-size: 20px;
+	width: 85%;
+	padding: 3.5px;
+	border: none;
+	margin-left: 2rem;
+	margin-bottom: 1rem;
+}
+p{
+	text-align: center;
+}
+.link{
+	text-decoration: none;
+	color:#1a2537;
+	font-weight: 600;
+}
+.link {
+	color: cadetblue;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+	font-size: 20px;
+	width: 85%;
+	padding: 3.5px;
+	border: none;
+}
+@media(min-width: 800px)
+{
+.formulario{
+	margin:auto;
+	width: 355px;
+	right: 600px;
+	margin-top: 20px;
+	border-radius: 20px;
+	margin-bottom: 2rem;
+}
+}
